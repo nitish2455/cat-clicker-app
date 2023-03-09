@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Avenir;
+  src: url(./Static/AvenirLTStd-Roman.otf);
+}
+
+*{
+  font-family: Avenir;
+}
+
+.App{
+  padding: 4rem 0;
+  box-sizing: border-box;
+  height: fit-content;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+@media screen and (max-width: 570px) {
+  .App{
+    align-items: unset;
+  }
+}
